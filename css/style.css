@@ -1,0 +1,48 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 120px 910px 410px;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    
+  }
+  #left{
+      display: flex;
+      flex-direction: column;
+      height: 750px;
+      justify-content: space-between;
+  }
+  #left_top{
+    display: flex;
+    flex-direction: column; /* Xếp các phần tử con thành một cột dọc */
+    align-items: center;
+  
+  }
+  .items {
+      height: 40px;
+      width: 40px;
+      
+  }
+  #center {
+      display: flex;
+      flex-direction: column;
+  
+  }
+  #dong2{
+      display: flex;
+      justify-content: start;
+  }
+  #right{
+      display: flex;
+      
+  }
+  #a{
+      display: flex;
+      justify-self: flex-end;
+  }
